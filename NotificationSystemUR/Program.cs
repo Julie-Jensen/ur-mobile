@@ -1,0 +1,3 @@
+﻿using NotificationSystemUR;
+
+MyURListener.ListenOnQueue();

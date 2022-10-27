@@ -1,0 +1,17 @@
+E:\swof21\projects\ProjectUR\MyURPrototype\bin\Debug\net6.0\MyURPrototype.exe
+E:\swof21\projects\ProjectUR\MyURPrototype\bin\Debug\net6.0\MyURPrototype.deps.json
+E:\swof21\projects\ProjectUR\MyURPrototype\bin\Debug\net6.0\MyURPrototype.runtimeconfig.json
+E:\swof21\projects\ProjectUR\MyURPrototype\bin\Debug\net6.0\MyURPrototype.dll
+E:\swof21\projects\ProjectUR\MyURPrototype\bin\Debug\net6.0\MyURPrototype.pdb
+E:\swof21\projects\ProjectUR\MyURPrototype\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.csproj.AssemblyReference.cache
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.GeneratedMSBuildEditorConfig.editorconfig
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.AssemblyInfoInputs.cache
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.AssemblyInfo.cs
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.csproj.CoreCompileInputs.cache
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.csproj.CopyComplete
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.dll
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\refint\MyURPrototype.dll
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.pdb
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\MyURPrototype.genruntimeconfig.cache
+E:\swof21\projects\ProjectUR\MyURPrototype\obj\Debug\net6.0\ref\MyURPrototype.dll

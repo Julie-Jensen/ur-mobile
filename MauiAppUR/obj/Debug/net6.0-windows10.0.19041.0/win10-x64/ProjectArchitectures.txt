@@ -1,0 +1,1 @@
+E:\swof21\projects\ProjectUR\MauiAppUR\MauiAppUR.csproj;x64

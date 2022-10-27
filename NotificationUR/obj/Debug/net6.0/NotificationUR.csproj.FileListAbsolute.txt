@@ -1,0 +1,12 @@
+E:\swof21\projects\ProjectUR\NotificationUR\bin\Debug\net6.0\NotificationUR.deps.json
+E:\swof21\projects\ProjectUR\NotificationUR\bin\Debug\net6.0\NotificationUR.dll
+E:\swof21\projects\ProjectUR\NotificationUR\bin\Debug\net6.0\NotificationUR.pdb
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.csproj.AssemblyReference.cache
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.GeneratedMSBuildEditorConfig.editorconfig
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.AssemblyInfoInputs.cache
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.AssemblyInfo.cs
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.csproj.CoreCompileInputs.cache
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.dll
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\refint\NotificationUR.dll
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\NotificationUR.pdb
+E:\swof21\projects\ProjectUR\NotificationUR\obj\Debug\net6.0\ref\NotificationUR.dll
