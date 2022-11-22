@@ -43,7 +43,7 @@ namespace MyURPrototype
                     Name = "Prod_cobot_1",
                     Model = "UR3",
                     InstalledDate = new DateTime(2018, 8, 13).ToString("d", cultureInfoUS),
-                    Status = "ok",
+                    Status = "shipment 75% full",
                     Note = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     CustomerId = "00001",
                     LocationId = "00392"
@@ -54,7 +54,7 @@ namespace MyURPrototype
                     Name = "Prod_cobot_4",
                     Model = "UR5e",
                     InstalledDate = new DateTime(2022, 7, 2).ToString("d", cultureInfoUS),
-                    Status = "ok",
+                    Status = "activity completed",
                     Note = "Eu scelerisque felis imperdiet proin fermentum leo vel orci.",
                     CustomerId = "00005",
                     LocationId = "00928"
@@ -87,7 +87,7 @@ namespace MyURPrototype
                     Name = "Jarvis",
                     Model = "UR10",
                     InstalledDate = new DateTime(2020, 1, 2).ToString("d", cultureInfoUS),
-                    Status = "repair_needed",
+                    Status = "activity completed",
                     Note = "Erat nam at lectus urna duis convallis convallis tellus id.",
                     CustomerId = "00011",
                     LocationId = "00352"

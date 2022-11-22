@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608972171668",
+    "project_id": "projectsucl",
+    "storage_bucket": "projectsucl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608972171668:android:e17571c849c0e2b5168781",
+        "android_client_info": {
+          "package_name": "com.companyname.mauiappur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608972171668-ick50ice3v9sn9l6tj222r70msg92jpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-O_YQMRh4WedUonCUUiC9yWWzReA9-lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608972171668-ick50ice3v9sn9l6tj222r70msg92jpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

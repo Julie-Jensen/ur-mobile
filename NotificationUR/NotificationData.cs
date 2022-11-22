@@ -2,6 +2,6 @@
 {
     public class NotificationData
     {
-        public Robot? Robot { get; set; }
+        public Robot Robot { get; set; } = new Robot();
     }
 }

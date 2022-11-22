@@ -2,33 +2,27 @@
 using System.Text;
 using System.Text.Json;
 using NotificationUR;
+using Newtonsoft.Json;
+using NotificationSystemUR.Models;
+using System.Net.Http.Headers;
 
 namespace NotificationSystemUR
 {
     public class NotificationEmitter
     {
-        public void Emit(NotificationData notificationData)
+        public async void Emit(PushNotificationRequest pushNotificationRequest)
         {
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var url = "https://fcm.googleapis.com/fcm/send";
 
-            using (var connection = factory.CreateConnection())
+            using (var client = new HttpClient())
             {
-                using (var channel = connection.CreateModel())
-                {
-                    channel.ExchangeDeclare(exchange: "robot_notification", type: ExchangeType.Direct);
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("key", "=" + "");
 
-                    var props = channel.CreateBasicProperties();
-                    props.DeliveryMode = 2; // persistent delivery
+                string serializedRequest = JsonConvert.SerializeObject(pushNotificationRequest);
 
-                    var serializedData = JsonSerializer.Serialize(notificationData);
-                    var body = Encoding.UTF8.GetBytes(serializedData);
+                var response = await client.PostAsync(url, new StringContent(serializedRequest, Encoding.UTF8, "application/json"));
 
-                    channel.BasicPublish(
-                        exchange: "robot_notification",
-                        routingKey: "",
-                        basicProperties: null,
-                        body: body);
-                }
+                Console.WriteLine(response.StatusCode.ToString());
             }
         }
     }

@@ -17,3 +17,4 @@ E:\swof21\projects\ProjectUR\NotificationSystemUR\obj\Debug\net6.0\NotificationS
 E:\swof21\projects\ProjectUR\NotificationSystemUR\obj\Debug\net6.0\ref\NotificationSystemUR.dll
 E:\swof21\projects\ProjectUR\NotificationSystemUR\bin\Debug\net6.0\NotificationUR.dll
 E:\swof21\projects\ProjectUR\NotificationSystemUR\bin\Debug\net6.0\NotificationUR.pdb
+E:\swof21\projects\ProjectUR\NotificationSystemUR\bin\Debug\net6.0\Newtonsoft.Json.dll

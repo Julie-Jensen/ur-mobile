@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using NotificationSystemUR.Models;
 using NotificationUR;
 
 namespace NotificationSystemUR
@@ -11,23 +12,29 @@ namespace NotificationSystemUR
         public void EmitNotification(RobotObjMyUr robotObjMyUr)
         {
             var notificationData = CreateNotificationDataObj(robotObjMyUr);
-            Console.WriteLine($"\nCobot name: {notificationData.Robot.Name}\nStatus: {notificationData.Robot.Status}");
+            Console.WriteLine($"\nCobot name: {notificationData.data["name"]}\nStatus: {notificationData.data["status"]}");
             updatesEmitter.Emit(notificationData);
         }
 
-        public NotificationData CreateNotificationDataObj(RobotObjMyUr robotObjMyUr)
+        public PushNotificationRequest CreateNotificationDataObj(RobotObjMyUr robotObjMyUr)
         {
-            return new NotificationData()
+            return new PushNotificationRequest()
             {
-                Robot = new Robot()
+                notification = new NotificationMessage()
                 {
-                    Id = Convert.ToInt32(robotObjMyUr.Id),
-                    Name = robotObjMyUr.Name,
-                    Model = robotObjMyUr.Model,
-                    Year = Convert.ToDateTime(robotObjMyUr.InstalledDate, cultureInfoUS).Year,
-                    Status = robotObjMyUr.Status,
-                    StatusChangedDate = Convert.ToDateTime(robotObjMyUr.StatusChangedDate, cultureInfoUS)
-                }
+                    title = $"'{robotObjMyUr.Name}' status update",
+                    body = $"New status: '{robotObjMyUr.Status}' on {robotObjMyUr.StatusChangedDate}"
+                },
+                data = new Dictionary<string, string>() 
+                { 
+                    { "id", robotObjMyUr.Id },
+                    { "name", robotObjMyUr.Name },
+                    { "model", robotObjMyUr.Model },
+                    { "year", Convert.ToDateTime(robotObjMyUr.InstalledDate, cultureInfoUS).Year.ToString() },
+                    { "status", robotObjMyUr.Status },
+                    { "statusChangedDate", robotObjMyUr.StatusChangedDate}
+                },
+                registration_ids = new List<string>() { "" }
             };
         }
     }

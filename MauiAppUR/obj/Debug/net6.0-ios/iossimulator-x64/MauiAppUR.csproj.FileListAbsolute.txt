@@ -264,3 +264,4 @@ E:\swof21\projects\ProjectUR\MauiAppUR\obj\Debug\net6.0-ios\iossimulator-x64\ref
 E:\swof21\projects\ProjectUR\MauiAppUR\obj\Debug\net6.0-ios\iossimulator-x64\MauiAppUR.pdb
 E:\swof21\projects\ProjectUR\MauiAppUR\obj\Debug\net6.0-ios\iossimulator-x64\MauiAppUR.genruntimeconfig.cache
 E:\swof21\projects\ProjectUR\MauiAppUR\obj\Debug\net6.0-ios\iossimulator-x64\ref\MauiAppUR.dll
+E:\swof21\projects\ProjectUR\MauiAppUR\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature

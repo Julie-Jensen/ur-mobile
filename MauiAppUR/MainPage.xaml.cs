@@ -1,33 +1,27 @@
-﻿namespace MauiAppUR;
+﻿using Android.OS;
+using MauiAppUR.Models;
+using Newtonsoft.Json;
+using System.Diagnostics;
+using System.Text;
+using System.Text.Json.Serialization;
+
+namespace MauiAppUR;
 
 public partial class MainPage : ContentPage
 {
+    private string _deviceToken;
 	private List<Robot> robots = new List<Robot>();
-
-	int count = 0;
 
 	public MainPage()
 	{
-        //Thread thread = new Thread(new ThreadStart(() => NotificationListener.ListenOnQueue()));
-        //thread.IsBackground = true;
-        //thread.Name = "Notification Listener Thread";
-        //thread.Start();
-
         AddData();
 		InitializeComponent();
-	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+        var deviceTokenPref = "DeviceToken";
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+        if (Preferences.ContainsKey(deviceTokenPref))
+            _deviceToken = Preferences.Get(deviceTokenPref, "");
+    }
 
 	private void AddData()
 	{
